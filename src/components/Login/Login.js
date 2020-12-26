@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 import "./Login.css";
+
 const Login = () => {
     const [username, setUsername] = useState('');
     const [password, setPassword] = useState('');
@@ -16,23 +17,22 @@ const Login = () => {
     }
 
   return (
-    <div className="container register">
-    <div className="row">
-        <div className="col-md-3 register-left">
+    <div  className="container login">
+    <div  className="row">
+        <div className="col-md-3 login-left">
             <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt=""/>
             <h3>Welcome</h3>
             <div  className="notaccount">
-            <p>Don't have an account?</p>
-            <input onClick={forward} type="submit" name="" value="Register Now"/><br/>
+            <input className="link" type="submit" name="" value="Register Now" onClick={()=> window.open("/register", "_self") } /><br/>
             </div>
             
         </div>
-        <div className="col-md-9 register-right">
+        <div className="col-md-9 login-right">
             <div className="tab-content" id="myTabContent">
                 <div className="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
-                    <h3 className="register-heading">Login</h3>
+                    <h3 className="login-heading">Login</h3>
                     <form onSubmit={handleSubmit}> 
-                    <div className="row register-form">
+                    <div className="row login-form">
                         <div className="col-md-1"></div>
                         <div className="col-md-10">
                         <div className="error">{usernameError}</div>
@@ -53,7 +53,7 @@ const Login = () => {
                         
                         </div>
                         <div className="col-md-6">
-                            <input type="submit" className="btnRegister" value="Login" />
+                            <input type="submit" className="btnLogin" value="Login" />
                         </div>
                     </div>
                     </form>
