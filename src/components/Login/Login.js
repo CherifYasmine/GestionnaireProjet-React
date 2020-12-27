@@ -8,16 +8,16 @@ const Login = () => {
     const [passwordError, setPasswordError] = useState('');
     const forward = () => {
         window.open("/", "_self");
-    }
+    };
     const handleSubmit = (e) => {
         e.preventDefault();
         if (username==='') setUsernameError('this field is required*');
         if (password==='') setPasswordError('this field is required*');    
         if (username!=='' && password!=='') forward ();    
-    }
+    };
 
   return (
-    <div  className="container login">
+    <div  className="login">
     <div  className="row">
         <div className="col-md-3 login-left">
             <img src="https://image.ibb.co/n7oTvU/logo_white.png" alt=""/>
@@ -61,7 +61,9 @@ const Login = () => {
             </div>
         </div>
     </div>
-
+<br/>
+<br/>
+<br/>
 </div>
     
   );

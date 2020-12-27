@@ -5,6 +5,7 @@ import RegisterForm from './components/register/RegisterForm';
 import Home from './components/Home/Home'
 
 
+
 const Routes = () => {
     return(
         <BrowserRouter>
@@ -16,6 +17,6 @@ const Routes = () => {
         </BrowserRouter>
         
     )
-}
+};
 
 export default Routes;

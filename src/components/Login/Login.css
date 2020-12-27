@@ -1,18 +1,14 @@
-body{
-    background: -webkit-linear-gradient(left, #1A1A1D, #00c6ff);
 
-}
 .login{
-    margin-top: 3%;
-    padding: 3%; 
+    background: -webkit-linear-gradient(left, #1A1A1D, #00c6ff);
 }
 .login-left{
     text-align: center;
     color: #fff;
-    margin-top: 4%;
+    margin-top: 10%;
 }
 .notaccount{
-    margin-top: 30%;
+    margin-top: 9%;
     margin-bottom: 3%;
 }
 .login-left input{
@@ -24,11 +20,13 @@ body{
     font-weight: bold;
     color: #383d41; 
     cursor: pointer;
+
 }
 .login-right{
     background: #f8f9fa;
     border-top-left-radius: 10% 50%;
     border-bottom-left-radius: 10% 50%;
+    margin-top: 5%;
 }
 .login-left img{
     margin-top: 15%;
@@ -59,7 +57,7 @@ body{
     border: none;
     border-radius: 1.5rem;
     padding: 2%;
-    background: rgba(0, 0, 0, 0.76);
+    background: -webkit-linear-gradient(left, #1A1A1D, #00c6ff);
     color: #fff;
     font-weight: 600;
     width: 50%;
