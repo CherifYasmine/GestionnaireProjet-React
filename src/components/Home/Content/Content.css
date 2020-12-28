@@ -27,9 +27,6 @@ p{
 
 
 }
-p{
-    color: rgb(12, 12, 71);
-}
 
 .what{
     margin-top:70px;
@@ -53,8 +50,4 @@ p{
 }
 .char p{
     margin-top: 10px;
-
-}
- h2, h3, h4{
-    color: rgb(12, 12, 71);
 }
