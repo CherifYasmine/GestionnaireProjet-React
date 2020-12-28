@@ -7,7 +7,7 @@ import FormikField from "../formikField/FormikField";
 function RegisterForm() {
 
     const forward =() => {
-        window.open("/", "_self");
+        window.open("/login", "_self");
 
     };
     const initialValues = {
@@ -15,21 +15,6 @@ function RegisterForm() {
         email: '',
         password: '',
         passwordConfirmation: '',
-        address:'',
-    };
-
-    const [imageName, setimageName] = useState("");
-
-    const handleImageInput = (e) => {
-        const elt = document.getElementById("upload-photo").value;
-        const ShortPath = elt.substring(12);
-        setimageName(ShortPath);
-        const formData = new FormData();
-        formData.append("file", e.target.files[0]);
-
-        console.log(elt);
-        console.log(e.target.files[0]);
-        console.log(e.target.files[0].name);
     };
     const handleSubmit = (values) => {
         console.log(values);
@@ -69,35 +54,12 @@ function RegisterForm() {
                                             </div>
 
                                             <div className="form-group">
-                                                <FormikField type="text" name="address" placeholder="Your address"/>
-                                            </div>
-                                            <div className="form-group">
-                                                <label htmlFor="upload-photo">
-                                                <input
-                                                    name="upload-photo"
-                                                    id="upload-photo"
-                                                    type="file"
-                                                    placeholder="Photo"
-                                                    style={{ display: "none" }}
-                                                    onChange={handleImageInput}
-                                                />
-                                                <span
-                                                    id="attach-image"
-                                                    type="button"
-                                                    style={{ margin : '9px' }}
-                                                    className="btn btn-dark btn-elevate"
-                                                >
-                                                Attach Image
-                                                  </span>
-                                                {imageName}
-                                                </label>
+                                                <FormikField type="text" name="email" placeholder="Email *"/>
                                             </div>
 
                                         </div>
                                         <div className="col-md-6">
-                                            <div className="form-group">
-                                                <FormikField type="text" name="email" placeholder="Email *"/>
-                                            </div>
+
                                             <div className="form-group">
                                                 <FormikField type="password" name="password" placeholder="Password *"/>
                                             </div>
@@ -121,6 +83,8 @@ function RegisterForm() {
                         </div>
                     </div>
                 </div>
+                <br/>
+                <br/>
                 <br/>
                 <br/>
 
