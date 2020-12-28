@@ -2,6 +2,8 @@
 .login{
     background: -webkit-linear-gradient(left, #1A1A1D, #00c6ff);
 }
+.row{margin:5px; margin-top: 0;}
+
 .login-left{
     text-align: center;
     color: #fff;

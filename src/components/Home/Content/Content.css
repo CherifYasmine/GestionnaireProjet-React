@@ -2,6 +2,11 @@
     padding: 20px;
 }
 
+p{
+    font-family: "Times New Roman", Times, serif;
+    font-size:17px;
+}
+
 /* .imageCont img {
     max-width: 100%;
 } */
@@ -22,6 +27,9 @@
 
 
 }
+p{
+    color: rgb(12, 12, 71);
+}
 
 .what{
     margin-top:70px;
@@ -34,4 +42,19 @@
     padding-top: 120px;
     padding-left: 50px ;
 
+}
+.char {margin-top: 80px;}
+.char img{
+    height:50px;
+    width:50px;
+}
+.char h4{
+    margin-top: 20px;
+}
+.char p{
+    margin-top: 10px;
+
+}
+ h2, h3, h4{
+    color: rgb(12, 12, 71);
 }

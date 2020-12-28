@@ -25,7 +25,7 @@ const Header = () => {
             </li>
             </div>
             <form>
-            <input type="search" className="search-data" placeholder="Search" required/>
+            <input type="search" className="search-data" placeholder="Search..." required/>
             <button type="submit"><FontAwesome name="search"/></button>
             </form>
             
