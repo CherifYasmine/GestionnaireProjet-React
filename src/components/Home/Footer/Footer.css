@@ -2,6 +2,7 @@
   /* background: -webkit-linear-gradient(left, #1A1A1D, #00c6ff); */
   margin: 0;
   display: flex;
+  padding-bottom: 0;
 }
 .foot {
   color: rgb(12, 12, 71);
