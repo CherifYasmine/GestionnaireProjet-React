@@ -1,16 +1,12 @@
-import React from 'react';
-import Header from './Header/Header'
-import Content from './Content/Content'
-import Footer from './Footer/Footer'
+import React from "react";
+import Content from "./Content/Content";
 
 const Home = () => {
-    return (
-        <div>
-            <Header />
-            <Content />
-            <Footer />
-        </div>
-    );
+  return (
+    <div>
+      <Content />
+    </div>
+  );
 };
 
 export default Home;
