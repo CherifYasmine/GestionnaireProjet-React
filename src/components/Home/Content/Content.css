@@ -1,0 +1,53 @@
+.container{
+    padding: 20px;
+}
+
+p{
+    font-family: "Times New Roman", Times, serif;
+    font-size:17px;
+}
+
+/* .imageCont img {
+    max-width: 100%;
+} */
+.head{
+    padding-top: 100px;
+}
+.freeRegister{
+    text-decoration: none;
+    background-color: -webkit-linear-gradient(left, #1A1A1D, #00c6ff);
+    border: none;
+    border-radius: 1.5rem;
+    padding: 2%;
+    background: -webkit-linear-gradient(left, #1A1A1D, #00c6ff);
+    color: #fff;
+    font-weight: 600;
+    width: 50%;
+    cursor: pointer;
+
+
+}
+
+.what{
+    margin-top:70px;
+}
+
+.text{
+    margin-top: 20px;
+}
+.plan{
+    padding-top: 120px;
+    padding-left: 50px ;
+
+}
+.char {margin-top: 80px;}
+.char img{
+    height:50px;
+    width:50px;
+}
+.char h4{
+    margin-top: 20px;
+}
+.char p{
+    margin-top: 10px;
+}
