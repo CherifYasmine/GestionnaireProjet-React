@@ -1,6 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Register.css";
-import { Formik, Form, useFormik } from "formik";
+import { Formik, Form } from "formik";
 import * as Yup from "yup";
 import FormikField from "../formikField/FormikField";
 
