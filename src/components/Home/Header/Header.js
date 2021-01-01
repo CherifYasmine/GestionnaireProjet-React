@@ -1,15 +1,7 @@
 import React from "react";
 import FontAwesome from "react-fontawesome";
 import "./Header.css";
-import {
-  Navbar,
-  Container,
-  Nav,
-  NavDropdown,
-  Form,
-  FormControl,
-  Button,
-} from "react-bootstrap";
+import { Navbar, Nav, Form, FormControl, Button } from "react-bootstrap";
 const Header = () => {
   return (
     <Navbar className="nav" expand="lg" collapseOnSelect>
@@ -26,19 +18,19 @@ const Header = () => {
             <Nav.Link style={{ color: "white" }} href="/" className="item">
               Projects
             </Nav.Link>
-            <a className="dropdown">
-              <a href="#" class="dropbtn">
+            <div className="dropdown">
+              <div href="#" className="dropbtn">
                 Account
-              </a>
+              </div>
               <div className="dropdown-content">
                 <a href="/login">Login</a>
                 <a href="/register">Register</a>
                 <a href="/">Profile</a>
                 <a href="/">Logout</a>
               </div>
-            </a>
+            </div>
           </Nav>
-          <Form className="form" inline>
+          <Form className="form px-2" inline>
             <FormControl type="text" placeholder="Search" className="mr-sm-2" />
             <Button className="navbutton">
               <FontAwesome name="search" />

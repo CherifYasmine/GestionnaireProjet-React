@@ -51,5 +51,26 @@
 .dropdown:hover .dropdown-content {
   display: block;
   background: -webkit-linear-gradient(left, #1a1a1d, #00c6ff);
-  color: #fff;
+  color: rgb(58, 63, 114);
+}
+.dropdown-content a:hover {
+  color: rgb(58, 63, 114);
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+@media (max-width: 637px) and (min-width: 400px) {
+  .dropdown-content {
+    margin-left: 200px;
+  }
+}
+@media (max-width: 990px) and (min-width: 637px) {
+  .form {
+    margin-left: 150px;
+  }
+
+  .dropdown-content {
+    margin-left: 400px;
+  }
 }

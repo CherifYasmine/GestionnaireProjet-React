@@ -1,29 +1,24 @@
 import React from "react";
-import "./Footer.css";
-import FontAwesome from "react-fontawesome";
 import { Container, Row, Col } from "react-bootstrap";
 const Footer = () => {
   return (
     <footer>
       <Container>
-        <Row>
-          <Col>copyright &copy; Clazana {new Date().getFullYear()}</Col>
+        <Row className="py-3">
           <Col>
             <a href="/ ">Terms of use</a>
           </Col>
+          <Col>copyright &copy; Clazana {new Date().getFullYear()}</Col>
           <Col>
-            <div>
+            <div className="icons">
               <a href="/">
-                <FontAwesome name="facebook" />
+                <i className="fab fa-facebook-square px-1"></i>
               </a>
               <a href="/">
-                <FontAwesome name="linkedin" />
+                <i className="fab fa-instagram-square px-1"></i>
               </a>
               <a href="/">
-                <FontAwesome name="github" />
-              </a>
-              <a href="/">
-                <FontAwesome name="twitter" />
+                <i className="fab fa-twitter-square px-1"></i>
               </a>
             </div>
           </Col>
