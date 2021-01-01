@@ -64,6 +64,7 @@
   margin-top: 10%;
 }
 .btnLogin {
+  float: right;
   margin-top: 10%;
   border: none;
   border-radius: 1.5rem;
@@ -73,7 +74,6 @@
   font-weight: 600;
   width: 50%;
   cursor: pointer;
-  margin-left: 400px;
 }
 
 .login-heading {

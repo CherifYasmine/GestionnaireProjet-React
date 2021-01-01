@@ -1,53 +1,70 @@
-.container{
-    padding: 20px;
+.container {
+  /* padding: 20px; */
 }
 
-p{
-    font-family: "Times New Roman", Times, serif;
-    font-size:17px;
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 17px;
 }
 
-/* .imageCont img {
-    max-width: 100%;
-} */
-.head{
-    padding-top: 100px;
+.imageCont img {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
 }
-.freeRegister{
-    text-decoration: none;
-    background-color: -webkit-linear-gradient(left, #1A1A1D, #00c6ff);
-    border: none;
-    border-radius: 1.5rem;
-    padding: 2%;
-    background: -webkit-linear-gradient(left, #1A1A1D, #00c6ff);
-    color: #fff;
-    font-weight: 600;
-    width: 50%;
-    cursor: pointer;
-
-
+.head {
+  padding-top: 100px;
 }
-
-.what{
-    margin-top:70px;
+.freeRegister {
+  text-decoration: none;
+  background-color: -webkit-linear-gradient(left, #1a1a1d, #00c6ff);
+  border: none;
+  border-radius: 1.5rem;
+  /* padding: 2%; */
+  background: -webkit-linear-gradient(left, #1a1a1d, #00c6ff);
+  color: #fff;
+  font-weight: 600;
+  width: 50%;
+  cursor: pointer;
 }
 
-.text{
-    margin-top: 20px;
+.what {
+  margin-top: 70px;
 }
-.plan{
-    padding-top: 120px;
-    padding-left: 50px ;
 
+.text {
+  margin-top: 20px;
 }
-.char {margin-top: 80px;}
-.char img{
-    height:50px;
-    width:50px;
+.plan {
+  padding-top: 120px;
+  padding-left: 50px;
 }
-.char h4{
-    margin-top: 20px;
+.char {
+  margin-top: 80px;
 }
-.char p{
-    margin-top: 10px;
+.char img {
+  height: 50px;
+  width: 50px;
+}
+.char h4 {
+  margin-top: 20px;
+}
+.char p {
+  margin-top: 10px;
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+  .plan {
+    padding-top: 50px;
+    padding-left: 50px;
+  }
+  .what {
+    margin-top: 50px;
+  }
+  .freeRegister {
+    width: 70%;
+  }
+  .head {
+    padding-top: 50px;
+  }
 }

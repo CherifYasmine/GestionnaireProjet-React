@@ -1,33 +1,30 @@
 import React from "react";
-import "./Footer.css";
-import FontAwesome from "react-fontawesome";
-
+import { Container, Row, Col } from "react-bootstrap";
 const Footer = () => {
   return (
-    <div className="footer copyright py-4 text-center ">
-      <hr />
-
-      <small className="foot">
-        Copyright © Clazana {new Date().getFullYear()}
-      </small>
-      <a className="terms" href="/ ">
-        Terms of use
-      </a>
-      <div className="icons">
-        <a href="/">
-          <FontAwesome className="facebook" name="facebook" />
-        </a>
-        <a href="/">
-          <FontAwesome className="linkedin" name="linkedin" />
-        </a>
-        <a href="/">
-          <FontAwesome className="github" name="github" />
-        </a>
-        <a href="/">
-          <FontAwesome className="twitter" name="twitter" />
-        </a>
-      </div>
-    </div>
+    <footer>
+      <Container>
+        <Row className="py-3">
+          <Col>
+            <a href="/ ">Terms of use</a>
+          </Col>
+          <Col>copyright &copy; Clazana {new Date().getFullYear()}</Col>
+          <Col>
+            <div className="icons">
+              <a href="/">
+                <i className="fab fa-facebook-square px-1"></i>
+              </a>
+              <a href="/">
+                <i className="fab fa-instagram-square px-1"></i>
+              </a>
+              <a href="/">
+                <i className="fab fa-twitter-square px-1"></i>
+              </a>
+            </div>
+          </Col>
+        </Row>
+      </Container>
+    </footer>
   );
 };
 
