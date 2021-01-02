@@ -15,7 +15,11 @@ const Header = () => {
             <Nav.Link href="/" style={{ color: "white" }} className="item">
               Home
             </Nav.Link>
-            <Nav.Link style={{ color: "white" }} href="/" className="item">
+            <Nav.Link
+              style={{ color: "white" }}
+              href="/projects"
+              className="item"
+            >
               Projects
             </Nav.Link>
             <div className="dropdown">
