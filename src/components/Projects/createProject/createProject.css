@@ -1,12 +1,11 @@
-.btncreateproject {
-  float: right;
-  background: -webkit-linear-gradient(left, #1a1a1d, #00c6ff);
-  border: none;
-}
-
 .createProjectHeader {
   background: -webkit-linear-gradient(left, #1a1a1d, #00c6ff);
 }
 .createprojtitle {
   color: #fff;
+}
+.btncreateproject {
+  float: right;
+  background: -webkit-linear-gradient(left, #1a1a1d, #00c6ff);
+  border: none;
 }

@@ -1,0 +1,23 @@
+.createproject {
+  background: -webkit-linear-gradient(left, #1a1a1d, #00c6ff);
+  border: none;
+  float: right;
+}
+.projectsTitle {
+  margin-top: 50px;
+}
+
+.tableprojects {
+  margin-top: 70px;
+}
+
+.searchProjects {
+  /* float: left; */
+}
+.pro {
+  margin: 50px;
+}
+.buttonDelete {
+  background: -webkit-linear-gradient(left, #1a1a1d, #00c6ff);
+  border: none;
+}

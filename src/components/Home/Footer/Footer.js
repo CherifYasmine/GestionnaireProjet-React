@@ -1,25 +1,27 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import { Link } from "react-router-dom";
+
 const Footer = () => {
   return (
     <footer>
       <Container>
         <Row className="py-3">
           <Col>
-            <a href="/ ">Terms of use</a>
+            <Link to="/">Terms of use</Link>
           </Col>
           <Col>copyright &copy; Clazana {new Date().getFullYear()}</Col>
           <Col>
             <div className="icons">
-              <a href="/">
+              <Link to="/">
                 <i className="fab fa-facebook-square px-1"></i>
-              </a>
-              <a href="/">
+              </Link>
+              <Link to="/">
                 <i className="fab fa-instagram-square px-1"></i>
-              </a>
-              <a href="/">
+              </Link>
+              <Link to="/">
                 <i className="fab fa-twitter-square px-1"></i>
-              </a>
+              </Link>
             </div>
           </Col>
         </Row>
