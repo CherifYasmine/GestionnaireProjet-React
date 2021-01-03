@@ -15,36 +15,28 @@ const Projects = () => {
       date: new Date(),
       Name: "projectName1",
       leader: "Yasmine Cherif",
+      description: "faire quelque chose ici",
     },
     {
       _id: "01255214",
       date: new Date(),
       Name: "projectName2",
       leader: "Yasmine Cherif",
+      description: "faire quelque chose ici",
     },
     {
       _id: "01255221",
       date: new Date(),
       Name: "projectName3",
       leader: "Yasmine Cherif",
+      description: "faire quelque chose ici",
     },
     {
       _id: "0125214",
       date: new Date(),
       Name: "projectName4",
       leader: "Yasmine Cherif",
-    },
-    {
-      _id: "02214",
-      date: new Date(),
-      Name: "projectName5",
-      leader: "Yasmine Cherif",
-    },
-    {
-      _id: "01255552214",
-      date: new Date(),
-      Name: "projectName6",
-      leader: "Yasmine Cherif",
+      description: "faire quelque chose ici",
     },
   ];
   return (

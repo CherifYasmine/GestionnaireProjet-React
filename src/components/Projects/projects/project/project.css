@@ -1,0 +1,38 @@
+.first {
+  background: -webkit-linear-gradient(left, #1a1a1d, #00c6ff);
+}
+.contprojsingle {
+  margin-left: 30px;
+  /* margin-top: 20px; */
+}
+
+.projectName {
+  float: left;
+  color: #fff;
+}
+
+.card {
+  background-color: #fff;
+  margin-top: 20px;
+}
+.card1 {
+  max-width: 350px;
+}
+.newtaskadd {
+  background: -webkit-linear-gradient(left, #1a1a1d, #00c6ff);
+  border: none;
+}
+.searchTasks {
+  margin-left: 180px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.tabletaskitem {
+  max-width: 30px;
+}
+.sortTasks {
+  margin-top: 20px;
+  width: 200px;
+  margin-bottom: 10px;
+}

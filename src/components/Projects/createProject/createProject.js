@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Modal, Button, Form } from "react-bootstrap";
 import "./createProject.css";
-const CreateProject = ({ show, handleClose }) => {
+const CreateProject = ({ show, handleClose, project }) => {
   const [projectName, setProjectName] = useState("");
   const [projectNameError, setProjectNameError] = useState("");
   const [projectDescription, setProjectDescription] = useState("");
@@ -21,7 +21,9 @@ const CreateProject = ({ show, handleClose }) => {
   return (
     <Modal show={show} onHide={handleClose}>
       <Modal.Header className="createProjectHeader" closeButton>
-        <Modal.Title className="createprojtitle">Create Project</Modal.Title>
+        <Modal.Title className="createprojtitle">
+          {project ? "Edit" : "Create"} Project
+        </Modal.Title>
       </Modal.Header>
       <Modal.Body>
         <Form>
@@ -34,6 +36,7 @@ const CreateProject = ({ show, handleClose }) => {
               required
               type="text"
               placeholder="Enter project name..."
+              value={project ? project.Name : null}
               onChange={(event) => {
                 setProjectNameError("");
                 setProjectName(event.target.value);
@@ -50,6 +53,7 @@ const CreateProject = ({ show, handleClose }) => {
             <Form.Control
               as="textarea"
               rows={3}
+              value={project ? project.description : null}
               placeholder="Enter project description..."
               onChange={(event) => {
                 setProjectDescriptionError("");

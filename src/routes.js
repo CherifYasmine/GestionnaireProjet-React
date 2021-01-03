@@ -7,6 +7,7 @@ import CreateProject from "./components/Projects/createProject/createProject";
 import Projects from "./components/Projects/projects/projects";
 import Header from "./components/Home/Header/Header";
 import Footer from "./components/Home/Footer/Footer";
+import Project from "./components/Projects/projects/project/project";
 
 const Routes = () => {
   return (
@@ -18,6 +19,7 @@ const Routes = () => {
         <Route path="/register" exact component={RegisterForm} />
         <Route path="/createproject" exact component={CreateProject} />
         <Route path="/projects" exact component={Projects} />
+        <Route path="/project/:id" exact component={Project} />
       </Switch>
       <Footer />
     </BrowserRouter>
